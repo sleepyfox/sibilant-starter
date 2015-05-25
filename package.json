@@ -2,9 +2,13 @@
   "name": "sibilant-starter",
   "version": "1.0.0",
   "description": "A LISP on Node.js template project using Sibilant",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sleepyfox/sibilant-starter.git"
   },
   "author": "@sleepyfox",
   "license": "MIT",
