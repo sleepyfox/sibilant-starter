@@ -1,0 +1,18 @@
+{
+  "name": "sibilant-starter",
+  "version": "1.0.0",
+  "description": "A LISP on Node.js template project using Sibilant",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "@sleepyfox",
+  "license": "MIT",
+  "dependencies": {
+    "sibilant": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7",
+    "tap": "^1.1.0"
+  }
+}
