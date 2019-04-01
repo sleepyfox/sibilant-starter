@@ -1,0 +1,6 @@
+(var assert (require "assert"))
+
+(assign module.exports
+        (hash
+         "test that true is OK" (#> (assert.ok true))
+         "test life the universe and everything" (#> (assert.equal (* 6 9) 42))))

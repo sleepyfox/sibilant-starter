@@ -16,6 +16,6 @@
     "sibilant": "0.5.x"
   },
   "devDependencies": {
-    "tape": "4.x"
+    "teenytest": "5.x"
   }
 }
