@@ -1,5 +1,6 @@
 COMPILE = ./node_modules/.bin/sibilant
-TEST = ./node_modules/.bin/tap
+TEST = ./node_modules/.bin/tape
+WATCH = ./node_modules/.bin/watch
 
 .PHONY: clean test watch build
 
@@ -9,10 +10,7 @@ clean:
 build: test-stuff.js
 
 test-stuff.js: test-stuff.lisp
-	$(COMPILE) test-stuff.lisp -o .
+	$(COMPILE) $< >$@
 
 test: test-stuff.js
-	$(TEST) -R spec test-stuff.js
-
-watch: 
-	nodemon --exec "make test" *.lisp
+	$(TEST) $<

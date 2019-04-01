@@ -13,10 +13,9 @@
   "author": "@sleepyfox",
   "license": "MIT",
   "dependencies": {
-    "sibilant": "^0.2.0"
+    "sibilant": "0.5.x"
   },
   "devDependencies": {
-    "nodemon": "^1.3.7",
-    "tap": "^1.1.0"
+    "tape": "4.x"
   }
 }
